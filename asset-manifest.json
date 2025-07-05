@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hosp-app/static/css/main.1d81b8a5.css",
+    "main.js": "/hosp-app/static/js/main.3312f256.js",
+    "index.html": "/hosp-app/index.html",
+    "main.1d81b8a5.css.map": "/hosp-app/static/css/main.1d81b8a5.css.map",
+    "main.3312f256.js.map": "/hosp-app/static/js/main.3312f256.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d81b8a5.css",
+    "static/js/main.3312f256.js"
+  ]
+}
