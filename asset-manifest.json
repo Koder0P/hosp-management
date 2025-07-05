@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/hosp-app/static/css/main.1d81b8a5.css",
-    "main.js": "/hosp-app/static/js/main.3312f256.js",
-    "index.html": "/hosp-app/index.html",
-    "main.1d81b8a5.css.map": "/hosp-app/static/css/main.1d81b8a5.css.map",
-    "main.3312f256.js.map": "/hosp-app/static/js/main.3312f256.js.map"
+    "main.css": "/hosp-management/static/css/main.1d81b8a5.css",
+    "main.js": "/hosp-management/static/js/main.3312f256.js",
+    "index.html": "/hosp-management/index.html",
+    "main.1d81b8a5.css.map": "/hosp-management/static/css/main.1d81b8a5.css.map",
+    "main.3312f256.js.map": "/hosp-management/static/js/main.3312f256.js.map"
   },
   "entrypoints": [
     "static/css/main.1d81b8a5.css",
