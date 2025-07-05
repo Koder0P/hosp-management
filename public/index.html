@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Dental App</title>
+    <style>
+        /* Basic global styles for a clean look */
+        body {
+            margin: 0;
+            /* This is your main background color */
+            background-color: #f4f7f6; /* A light, soft grey/blue */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            height: 100vh; /* Ensure body takes full viewport height */
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+        #root {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Basic table styling for lists */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden; /* For rounded corners to apply to inner elements */
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #e0f2f7;
+            font-weight: bold;
+            color: #2196f3;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        /* Style for anchors/links to remove default underline */
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* React Calendar Specific Overrides (Optional, for better look) */
+        .react-calendar {
+            border: 1px solid #e0e0e0 !important;
+            border-radius: 10px !important;
+            font-family: 'Segoe UI', sans-serif !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+            background-color: white !important;
+        }
+
+        .react-calendar__tile--now {
+            background: #e3f2fd !important; /* Light blue for current day */
+        }
+
+        .react-calendar__tile--active {
+            background: #2196f3 !important; /* Main blue for selected day */
+            color: white !important;
+        }
+
+        .react-calendar__navigation button {
+            color: #2196f3 !important;
+        }
+    </style>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+</body>
+</html>
